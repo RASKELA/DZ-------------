@@ -1,0 +1,12 @@
+{
+    "name": "dz-project",
+    "version": "1.0.0",
+    "scripts": {
+        "test:qauto": "cypress run --config-file cypress/config/config_qauto.json",
+        "test:qauto2": "cypress run --config-file cypress/config/config_qauto2.json"
+    },
+    "devDependencies": {
+        "cypress": "^12.17.4",
+        "mochawesome": "^7.1.3"
+    }
+}
